@@ -1,0 +1,175 @@
+html, body, .capa {
+	height: 100%;
+}
+
+
+body {
+	background: url('WHAT-IS-ECOMMERCE-WEB-DEVELOPMENT.jpg') no-repeat;
+	background-attachment: fixed;
+	font-family: Josefin Sans;
+	overflow-x: hidden;
+}
+
+
+
+/* -- Barra de navegação -- */
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('logo.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #ffa500;
+}
+
+
+/* -- Imagem da capa -- */
+.capa {
+display: table;
+width: 100%;
+
+}
+
+.text-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* -- Buttons -- */
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-green {
+	background: #32CD32;
+}
+.btn-green:hover {
+	background: #FFA500;
+	color: white;
+}
+
+/* -- Contents -- */
+#conteudos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.ling{
+	padding: 10px 0px 10px 0;
+}
+
+/* -- resource -- */
+#resource {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: white;
+}
+
+#infos {
+	background: #000;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.course-box {
+	width: 100%;
+	padding: 6px 3px;
+	padding-left: 30px;
+	padding-right: 30px;
+	float: left;
+	margin: 5px;
+	overflow: hidden;
+}
+
+#aboutus img {
+	width: 200px;
+	margin: 30px;
+}
+
+#paragraph {
+	text-align: center;
+}
+
+#about-content {
+	width: 500px;
+	height: 200px;
+	font-size: 25pt;
+	color: #000000;
+	margin: 10px auto;
+}
+
+
+/* -- footer --*/
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+
+/*========================== Tipography ====================== */
+h1 {
+	font-size: 100px;
+	font-weight: 900px;
+	letter-spacing: -2px;
+	margin-bottom: 50px;
+}
+
+h3{
+	font-size: 40px;
+	font-weight: 700px;
+	letter-spacing: -0.04em;
+}
+
+#conteudos h3 {
+	color: #000000;
+}
+
+#conteudos h3, p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
+
+p{
+	font-size: 20px;
+}
+
+#resource p {
+	color: white;
+}
+
+
